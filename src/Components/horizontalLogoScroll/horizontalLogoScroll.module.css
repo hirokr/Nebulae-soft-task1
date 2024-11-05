@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+}
+
+/* HorizontalScroll.module.css */
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logo {
+  margin: 0 40px; /* Add spacing between images */
+}
