@@ -42,7 +42,7 @@ const Awards = () => {
       <h1>Recognition</h1>
       <h1>Expertise</h1>
       <button>REQUEST A QUOTE 
-        <Image src="/SVG/8.svg" height={10}
+        <Image src="/SVG/rightBold.svg" height={10}
           width={10}
           alt='award4' />
       </button>
