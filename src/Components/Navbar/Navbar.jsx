@@ -1,13 +1,13 @@
-import Image from 'next/image';
-import styles from './Navbar.module.css';
+const Navbar = () => {
+  return (
+    <nav className='flex justify-between items-center relative h-[80px] w-fil py-3 '>
+      <h1 className='text-blue-500 text-2xl font-bold uppercase '>Nebuale-soft</h1>
+      <div className='flex gap-10'>
+        <button className='btn hover:drop-shadow-lg'>Request a Quote</button>
+        <div>menu</div>
+      </div>
+    </nav>
+  );
+};
 
-const Navbar = () =>{
-  return(
-    <div className= {styles.container}>
-      <Image src={`/ds-logo.svg`} height={300} width={300} alt='not now' />
-    </div>
-  )
-}
-
-
-export default Navbar
+export default Navbar;

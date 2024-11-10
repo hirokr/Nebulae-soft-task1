@@ -4,23 +4,27 @@ import Contact from "@/Components/Contact/Contact";
 import DownloadGuid from "@/Components/DownloadGuid/DownloadGuid";
 import Footer from "@/Components/Footer/Footer";
 import Guidance from "@/Components/Guidance/Guidance";
+import HomeCard from "@/Components/homeCard/HomeCard";
 import HorizontalLogoScroll from "@/Components/horizontalLogoScroll/horizontalLogoScroll";
 import LocationDrop from "@/Components/LocationCard/LocationDrop";
 import Questions from "@/Components/Questions/Questions";
 
 export default function Home() {
   return (
-    <div>
-      <HorizontalLogoScroll/>
-      <Guidance/>
-      <Awards/>
-      <DownloadGuid/>
-      <ChooseUs/>
-      <LocationDrop/>
-      <Questions/>
-      <Contact/>
-      <Footer/>
-
-    </div>
+    <main>
+      <HomeCard />
+      <section className="mt-[40rem]">
+      <HorizontalLogoScroll />
+      <Guidance />
+      <Awards />
+      <DownloadGuid />
+      <ChooseUs />
+      <LocationDrop />
+      <Questions />
+      <Contact />
+      <Footer />
+      </section>
+      
+    </main>
   );
 }

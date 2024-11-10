@@ -2,7 +2,7 @@ import styles from "./ChooseUs.module.css";
 
 const ChooseUs = () => {
   return (
-    <div className={styles.container}>
+    <div className="btn">
       <h1>
         Why Choose Professional Web Design Company?
       </h1>
