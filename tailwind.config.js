@@ -33,7 +33,7 @@ module.exports = {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        
+        "locationImage1": '/WEBP/locationImage.webp',
       },
       listStyleImage:{
         "listImage": "",

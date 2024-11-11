@@ -20,9 +20,9 @@ export default function Home() {
       <Guidance />
       <DownloadGuid />
       </section>
+      <LocationDrop />
       <Awards />
       <ChooseUs />
-      <LocationDrop />
       <Questions />
       <Contact />
       <Footer />
