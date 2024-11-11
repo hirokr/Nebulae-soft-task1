@@ -23,7 +23,6 @@ export default function Home() {
       <LocationDrop />
       <Questions />
       <Awards />
-      <ChooseUs />
       <Contact />
       <Footer />
       </section>

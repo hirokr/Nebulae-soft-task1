@@ -13,10 +13,10 @@ const SingleQuestion = ({ prop }) => {
         </div>
         <div>
         {show === index ? (
-          <Image className='scale-y-[-1]' src='/SVG/down.svg' height={10} width={20} alt='j' />
+          <Image className='scale-y-[-1]' src='/SVG/down.svg' height={30} width={30} alt='j' />
         ) : (
           <div >
-            <Image src='/SVG/down.svg' height={10} width={20} alt='j' />
+            <Image src='/SVG/down.svg' height={30} width={30} alt='j' />
           </div>
         )}
         </div>
