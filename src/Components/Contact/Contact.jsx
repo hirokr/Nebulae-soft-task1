@@ -22,7 +22,7 @@ const Contact = () => {
           />
         </div>
         <div className=' flex mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
-          <Image src='/SVG/person.svg' width={20} height={20} alt='h' />
+          <Image src='/SVG/c_name.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
             type='text'
@@ -31,7 +31,7 @@ const Contact = () => {
           />
         </div>
         <div className=' flex mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
-          <Image src='/SVG/person.svg' width={20} height={20} alt='h' />
+          <Image src='/SVG/email.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
             type='email'
@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
 
         <div className=' flex mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
-          <Image src='/SVG/person.svg' width={20} height={20} alt='h' />
+          <Image src='/SVG/phone.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
             type='text'
@@ -50,7 +50,7 @@ const Contact = () => {
           />
         </div>
         <div className=' flex justify-start items-start mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
-          <Image src='/SVG/person.svg' width={20} height={20} alt='h' />
+          <Image src='/SVG/y_msg.svg' width={20} height={20} alt='h' />
           <textarea
             rows='5'
             className='bg-transparent w-full outline-none'
