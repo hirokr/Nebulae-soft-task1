@@ -33,6 +33,13 @@ body {
     @apply h-16 w-56 border-2 border-solid font-bold hover:drop-shadow-lg max-mobile:hidden;
   }
 
+  .btn:hover{
+    text-shadow: 0 0 15px rgba(30, 144, 255, 1), 
+                0 0 25px rgba(30, 144, 255, 0.8), 
+                0 0 35px rgba(30, 144, 255, 0.6);
+    background-color: rgba(85, 99, 139, 0.739);
+  }
+
 .bigBtn{
   @apply button relative overflow-hidden px-8 py-4 border-4 font-bold tracking-widest uppercase text-white bg-[#2f3f83] transition-all duration-1000 text-[15px];
 }
@@ -69,6 +76,30 @@ body {
 .underHover{
   @apply underline underline-offset-4 decoration-[#01afe9] decoration-4 font-extrabold before:h-5 before:w-full hover:bg-[#01afe9] 
 }
+
+.slideAnimation{
+  position: relative;
+  z-index: 1;
+  @apply underline underline-offset-[.4rem] decoration-finding_sec_bold decoration-4 
+}
+.slideAnimation::before{
+  content: '';
+  position: absolute;
+  height: 110%;
+  width: 0rem;
+  left: 0%;
+  background-color: #01afe9;
+  top: 0%;
+  z-index: -1;
+  overflow: hidden;
+  transition: all 0.45s ease-in-out;
+}
+.slideAnimation:hover::before{
+  width: 100%;
+  transition: all 0.45s ease-in-out;
+}
+
+
 
 }
 

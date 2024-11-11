@@ -23,7 +23,7 @@ module.exports = {
       },
       colors: {
         'primary': "#ECEEFF",
-        "finding_sec_bold": "#3b7bce",
+        "finding_sec_bold": "#01afe9",
         "finding_background":"#b0ccff",
         "finding_text": "#777d80",
         "finding_all_text": "#243462",

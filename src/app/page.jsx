@@ -13,11 +13,14 @@ export default function Home() {
   return (
     <main>
       <HomeCard />
-      <section className="mt-[40rem]">
+      <section className="mt-[42rem]">
       <HorizontalLogoScroll />
+      <section className="bg-gradient-to-b from-finding_background via-white to-finding_background ">
+
       <Guidance />
-      <Awards />
       <DownloadGuid />
+      </section>
+      <Awards />
       <ChooseUs />
       <LocationDrop />
       <Questions />
