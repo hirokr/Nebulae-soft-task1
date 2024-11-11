@@ -21,9 +21,9 @@ export default function Home() {
       <DownloadGuid />
       </section>
       <LocationDrop />
+      <Questions />
       <Awards />
       <ChooseUs />
-      <Questions />
       <Contact />
       <Footer />
       </section>

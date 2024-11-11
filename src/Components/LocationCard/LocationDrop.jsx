@@ -12,28 +12,28 @@ const images = [
   {
     src: "E:/WEB DEV/Nebulae-soft/task1/public/WEBP/locationImage.webp",
     alt: "Image 1",
-    text: d,
+    text: desc,
     name: "Miami",
     order: "01",
   },
   {
     src: "E:/WEB DEV/Nebulae-soft/task1/public/WEBP/locationImage.webp",
     alt: "Image 2",
-    text: d,
+    text: desc,
     name: "Miami",
     order: "02",
   },
   {
     src: "E:/WEB DEV/Nebulae-soft/task1/public/WEBP/locationImage.webp",
     alt: "Image 3",
-    text: d,
+    text: desc,
     name: "Miami",
     order: "03",
   },
   {
     src: "E:/WEB DEV/Nebulae-soft/task1/public/WEBP/locationImage.webp",
     alt: "Image 4",
-    text: d,
+    text: desc,
     name: "Miami",
     order: "04",
   },
@@ -47,14 +47,14 @@ const LocationDrop = () => {
   };
 
   return (
-    <div className=' h-46 w-full flex flex-col  justify-center items-center bg-gradient-to-r from-[#4c8cee] to-[#723fc6] pb-10 '>
+    <div className=' w-full flex flex-col  justify-center items-center bg-gradient-to-r from-[#4c8cee] to-[#723fc6] pb-10 '>
       <h1 className='text-4xl font-bold my-10'>Locations</h1>
       <p className="w-[90%] mb-10 text-2xl font-semibold text-center">
         With multiple locations throughout the United States, Digital Silk
         delivers localized strategies that complement your brand&#x27;s national
         presence.
       </p>
-      <div className='w-[90%] flex flex-col gap-10 wide:flex-row'>
+      <div className='w-[90%] flex flex-col gap-10 wide:flex-row  wide:justify-between'>
         {images.map((image, index) => (
           <SingleLocationCard key={index} prop={{image, expandedIndex, handleClick, index}}  />
         ))}

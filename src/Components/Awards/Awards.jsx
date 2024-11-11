@@ -3,11 +3,12 @@ import styles from "./Awards.module.css";
 
 const Awards = () => {
   return (
-    <div className={styles.container}>
-      <h3>OUR EXPERTS HAVE WON INDUSTRY AWARDS</h3>
-      <h1>Recognized Web Design Experts</h1>
-      <h2>AWARDS</h2>
-      <div>
+    <div className="bg-gradient-to-b from-[#000429] to-[#00042a] py-28 px-10 flex flex-col justify-end items-center">
+      <h3 className="pb-3 text-xl font-bold">OUR EXPERTS HAVE WON INDUSTRY AWARDS</h3>
+      <h1 className="pb-16 text-[2.8rem] font-bold">Recognized Web Design Experts</h1>
+      <h2 className="text-[1.5rem] font-bold">AWARDS</h2>
+      <div className="h-1 w-[35rem] mt-3  mb-10 rounded bg-white"></div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <Image
           src={`/WEBP/178.webp`}
           height={100}
