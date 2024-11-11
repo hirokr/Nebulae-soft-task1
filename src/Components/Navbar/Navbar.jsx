@@ -10,7 +10,7 @@ const Navbar = () => {
         </button>
         <div>
           <input type='checkbox' id='checkbox' />
-          <label for='checkbox' class='toggle'>
+          <label type='checkbox' className='toggle'>
             <div className='bars' id='bar1'></div>
             <div className='bars' id='bar2'></div>
             <div className='bars' id='bar3'></div>
