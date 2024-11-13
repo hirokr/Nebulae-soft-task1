@@ -3,7 +3,6 @@ import Image from "next/image";
 const SingleQuestion = ({ prop }) => {
   const { order, question, sol, show, handleShow } = prop;
   const index = Number(order);
-  console.log(index);
   return (
     <div className='' onClick={() => handleShow(index)}>
       <div className=' flex justify-between items-center'>
