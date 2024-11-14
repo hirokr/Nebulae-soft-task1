@@ -4,15 +4,15 @@ import styles from "./contact.module.css";
 const Contact = () => {
   return (
     <div className='px-20 py-10 bg-[#00042a] flex flex-col justify-center items-center wide:flex-row wide:gap-20'>
-      <div className="flex wide:w-[70%] flex-col justify-center items-center">
-        <h4 className='text-2xl font-bold mb-4'>Take the silk road to</h4>
-        <h1 className='text-[2.5rem] text-finding_sec_bold font-bold mb-4 '>
+      <div className="flex wide:flex-col w-full flex-col justify-center items-center">
+        <h4 className=' text-xl wide:text-2xl font-bold mb-4'>Take the silk road to</h4>
+        <h1 className='text-2xl wide:text-[2.5rem] text-finding_sec_bold tracking-wide font-bold mb-4 '>
           Digitizing Your Business Growth
         </h1>
       </div>
-      <form action='#' className='w-[80%] flex flex-col '>
-        <h3 className='text-2xl pl-[20%] wide:text-4xl mb-10'>Start A Conversation With Us</h3>
-        <div className=' flex mb-5 border-b-2 text-white border-gray-400 pb-3 gap-4 '>
+      <form action='#' className='w-full flex flex-col text-lg justify-center items-center wide:text-xl '>
+        <h3 className='text-xl wide:text-2xl mb-10'>Start A Conversation With Us</h3>
+        <div className=' flex w-10/12 mb-5 border-b-2 text-white border-gray-400 pb-3 gap-4 '>
           <Image src='/SVG/person.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
@@ -21,7 +21,7 @@ const Contact = () => {
             required
           />
         </div>
-        <div className=' flex mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
+        <div className=' flex w-10/12 mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
           <Image src='/SVG/c_name.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
@@ -30,7 +30,7 @@ const Contact = () => {
             required
           />
         </div>
-        <div className=' flex mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
+        <div className=' flex w-10/12 mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
           <Image src='/SVG/email.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
@@ -40,7 +40,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className=' flex mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
+        <div className=' flex w-10/12 mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
           <Image src='/SVG/phone.svg' width={20} height={20} alt='h' />
           <input
             className='bg-transparent text-white'
@@ -49,7 +49,7 @@ const Contact = () => {
             required
           />
         </div>
-        <div className=' flex justify-start items-start mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
+        <div className=' flex w-10/12 justify-start items-start mb-5 border-b-2 border-gray-400 pb-3 gap-4'>
           <Image src='/SVG/y_msg.svg' width={20} height={20} alt='h' />
           <textarea
             rows='5'

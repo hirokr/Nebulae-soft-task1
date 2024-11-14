@@ -42,7 +42,7 @@ module.exports = {
         "triangle": "▶",
       },
       screens: {
-        "wide": "1440px",
+        "wide": "1122px",
         "mobile": "1122px"
       }
     },
